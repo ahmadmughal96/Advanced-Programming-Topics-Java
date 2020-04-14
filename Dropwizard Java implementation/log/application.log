@@ -1,0 +1,111 @@
+INFO   [08:25:40.675] [main] o.e.j.u.log -  Logging initialized @2288ms to org.eclipse.jetty.util.log.Slf4jLog 
+INFO   [08:25:40.937] [main] i.d.s.DefaultServerFactory -  Registering jersey handler with root path prefix: / 
+INFO   [08:25:40.940] [main] i.d.s.DefaultServerFactory -  Registering admin handler with root path prefix: / 
+INFO   [08:25:40.940] [main] i.d.a.AssetsBundle -  Registering AssetBundle with name: assets for path /assets/* 
+INFO   [08:25:41.016] [main] i.d.a.AssetsBundle -  Registering AssetBundle with name: swagger-assets for path /swagger-static/* 
+INFO   [08:25:41.127] [main] o.r.Reflections -  Reflections took 74 ms to scan 1 urls, producing 15 keys and 15 values  
+INFO   [08:25:41.303] [main] i.d.s.DefaultServerFactory -  Registering jersey handler with root path prefix: / 
+INFO   [08:25:41.303] [main] i.d.s.DefaultServerFactory -  Registering admin handler with root path prefix: / 
+INFO   [08:25:41.332] [main] i.d.s.ServerFactory -  Starting AggregatorApplication 
+INFO   [08:25:41.552] [main] o.e.j.s.SetUIDListener -  Opened application@28e0e464{HTTP/1.1,[http/1.1]}{0.0.0.0:18080} 
+INFO   [08:25:41.553] [main] o.e.j.s.SetUIDListener -  Opened application@1d98daa0{SSL,[ssl, http/1.1]}{0.0.0.0:18081} 
+INFO   [08:25:41.554] [main] o.e.j.s.SetUIDListener -  Opened admin@70a898b0{HTTP/1.1,[http/1.1]}{0.0.0.0:18082} 
+INFO   [08:25:41.560] [main] o.e.j.s.Server -  jetty-9.4.2.v20170220 
+INFO   [08:25:41.606] [main] o.e.j.u.s.SslContextFactory -  x509=X509@36ef1d65(localhost,h=[],w=[]) for SslContextFactory@4be0a27d(file:///C:/BIX/development/tradeio/com.bix.kyc/bixdocslocal.jks,null) 
+INFO   [08:25:42.039] [main] i.d.j.HttpsConnectorFactory -  Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2] 
+INFO   [08:25:42.039] [main] i.d.j.HttpsConnectorFactory -  Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5] 
+INFO   [08:25:42.875] [main] i.d.j.DropwizardResourceConfig -  The following paths were found for the configured resources:
+
+    POST    /device (edu.seecs.dropwizard.DeviceResources)
+    DELETE  /device/{deviceId} (edu.seecs.dropwizard.DeviceResources)
+    GET     /device/{deviceId} (edu.seecs.dropwizard.DeviceResources)
+    PUT     /device/{deviceId} (edu.seecs.dropwizard.DeviceResources)
+    GET     /swagger (io.federecio.dropwizard.swagger.SwaggerResource)
+    GET     /swagger.{type:json|yaml} (io.swagger.jaxrs.listing.ApiListingResource)
+ 
+INFO   [08:25:42.877] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@3d8d17a3{/,null,AVAILABLE} 
+INFO   [08:25:42.883] [main] i.d.s.AdminEnvironment -  tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+ 
+WARN   [08:25:42.883] [main] i.d.s.AdminEnvironment -  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+INFO   [08:25:42.889] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@35c8be21{/,null,AVAILABLE} 
+INFO   [08:25:42.915] [main] o.e.j.s.AbstractConnector -  Started application@28e0e464{HTTP/1.1,[http/1.1]}{0.0.0.0:18080} 
+INFO   [08:25:42.919] [main] o.e.j.s.AbstractConnector -  Started application@1d98daa0{SSL,[ssl, http/1.1]}{0.0.0.0:18081} 
+INFO   [08:25:42.921] [main] o.e.j.s.AbstractConnector -  Started admin@70a898b0{HTTP/1.1,[http/1.1]}{0.0.0.0:18082} 
+INFO   [08:25:42.921] [main] o.e.j.s.Server -  Started @4535ms 
+INFO   [08:26:01.791] [dw-43 - GET /swagger.json] o.r.Reflections -  Reflections took 8 ms to scan 1 urls, producing 15 keys and 15 values  
+INFO   [08:26:10.496] [dw-18 - GET /device/111] o.s.c.s.ClassPathXmlApplicationContext -  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6addfbe2: startup date [Fri Dec 21 08:26:10 CET 2018]; root of context hierarchy 
+INFO   [08:26:10.543] [dw-18 - GET /device/111] o.s.b.f.x.XmlBeanDefinitionReader -  Loading XML bean definitions from class path resource [spring.xml] 
+INFO   [08:26:10.786] [dw-18 - GET /device/111] o.s.b.f.c.PropertyPlaceholderConfigurer -  Loading properties file from class path resource [jdbc.properties] 
+INFO   [08:26:10.791] [dw-18 - GET /device/111] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+INFO   [08:26:10.836] [dw-18 - GET /device/111] o.s.j.d.DriverManagerDataSource -  Loaded JDBC driver: com.mysql.jdbc.Driver 
+INFO   [08:26:11.148] [dw-18 - GET /device/111] o.h.Version -  HHH000412: Hibernate Core {5.3.3.Final} 
+INFO   [08:26:11.151] [dw-18 - GET /device/111] o.h.c.Environment -  HHH000206: hibernate.properties not found 
+INFO   [08:26:11.280] [dw-18 - GET /device/111] o.h.a.c.Version -  HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+INFO   [08:26:11.657] [dw-18 - GET /device/111] o.h.d.Dialect -  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+INFO   [08:26:12.907] [dw-18 - GET /device/111] o.h.h.i.QueryTranslatorFactoryInitiator -  HHH000397: Using ASTQueryTranslatorFactory 
+INFO   [08:26:45.219] [main] o.e.j.u.log -  Logging initialized @2427ms to org.eclipse.jetty.util.log.Slf4jLog 
+INFO   [08:26:45.408] [main] i.d.s.DefaultServerFactory -  Registering jersey handler with root path prefix: / 
+INFO   [08:26:45.411] [main] i.d.s.DefaultServerFactory -  Registering admin handler with root path prefix: / 
+INFO   [08:26:45.411] [main] i.d.a.AssetsBundle -  Registering AssetBundle with name: assets for path /assets/* 
+INFO   [08:26:45.487] [main] i.d.a.AssetsBundle -  Registering AssetBundle with name: swagger-assets for path /swagger-static/* 
+INFO   [08:26:45.578] [main] o.r.Reflections -  Reflections took 58 ms to scan 1 urls, producing 15 keys and 15 values  
+INFO   [08:26:45.739] [main] i.d.s.DefaultServerFactory -  Registering jersey handler with root path prefix: / 
+INFO   [08:26:45.739] [main] i.d.s.DefaultServerFactory -  Registering admin handler with root path prefix: / 
+INFO   [08:26:45.741] [main] i.d.s.ServerFactory -  Starting AggregatorApplication 
+INFO   [08:26:45.930] [main] o.e.j.s.SetUIDListener -  Opened application@28e0e464{HTTP/1.1,[http/1.1]}{0.0.0.0:18080} 
+INFO   [08:26:45.930] [main] o.e.j.s.SetUIDListener -  Opened application@1d98daa0{SSL,[ssl, http/1.1]}{0.0.0.0:18081} 
+INFO   [08:26:45.931] [main] o.e.j.s.SetUIDListener -  Opened admin@70a898b0{HTTP/1.1,[http/1.1]}{0.0.0.0:18082} 
+INFO   [08:26:45.934] [main] o.e.j.s.Server -  jetty-9.4.2.v20170220 
+INFO   [08:26:45.978] [main] o.e.j.u.s.SslContextFactory -  x509=X509@36ef1d65(localhost,h=[],w=[]) for SslContextFactory@4be0a27d(file:///C:/BIX/development/tradeio/com.bix.kyc/bixdocslocal.jks,null) 
+INFO   [08:26:46.395] [main] i.d.j.HttpsConnectorFactory -  Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2] 
+INFO   [08:26:46.395] [main] i.d.j.HttpsConnectorFactory -  Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5] 
+INFO   [08:26:47.362] [main] i.d.j.DropwizardResourceConfig -  The following paths were found for the configured resources:
+
+    POST    /device (edu.seecs.dropwizard.DeviceResources)
+    DELETE  /device/{deviceId} (edu.seecs.dropwizard.DeviceResources)
+    GET     /device/{deviceId} (edu.seecs.dropwizard.DeviceResources)
+    PUT     /device/{deviceId} (edu.seecs.dropwizard.DeviceResources)
+    GET     /swagger (io.federecio.dropwizard.swagger.SwaggerResource)
+    GET     /swagger.{type:json|yaml} (io.swagger.jaxrs.listing.ApiListingResource)
+ 
+INFO   [08:26:47.364] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@3d8d17a3{/,null,AVAILABLE} 
+INFO   [08:26:47.371] [main] i.d.s.AdminEnvironment -  tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+ 
+WARN   [08:26:47.371] [main] i.d.s.AdminEnvironment -  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+INFO   [08:26:47.378] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@60807fd9{/,null,AVAILABLE} 
+INFO   [08:26:47.393] [main] o.e.j.s.AbstractConnector -  Started application@28e0e464{HTTP/1.1,[http/1.1]}{0.0.0.0:18080} 
+INFO   [08:26:47.396] [main] o.e.j.s.AbstractConnector -  Started application@1d98daa0{SSL,[ssl, http/1.1]}{0.0.0.0:18081} 
+INFO   [08:26:47.398] [main] o.e.j.s.AbstractConnector -  Started admin@70a898b0{HTTP/1.1,[http/1.1]}{0.0.0.0:18082} 
+INFO   [08:26:47.398] [main] o.e.j.s.Server -  Started @4609ms 
+INFO   [08:26:57.589] [dw-35 - GET /device/111] o.s.c.s.ClassPathXmlApplicationContext -  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@43933950: startup date [Fri Dec 21 08:26:57 CET 2018]; root of context hierarchy 
+INFO   [08:26:57.704] [dw-35 - GET /device/111] o.s.b.f.x.XmlBeanDefinitionReader -  Loading XML bean definitions from class path resource [spring.xml] 
+INFO   [08:26:57.934] [dw-35 - GET /device/111] o.s.b.f.c.PropertyPlaceholderConfigurer -  Loading properties file from class path resource [jdbc.properties] 
+INFO   [08:26:57.938] [dw-35 - GET /device/111] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+INFO   [08:26:57.978] [dw-35 - GET /device/111] o.s.j.d.DriverManagerDataSource -  Loaded JDBC driver: com.mysql.jdbc.Driver 
+INFO   [08:26:58.197] [dw-35 - GET /device/111] o.h.Version -  HHH000412: Hibernate Core {5.3.3.Final} 
+INFO   [08:26:58.203] [dw-35 - GET /device/111] o.h.c.Environment -  HHH000206: hibernate.properties not found 
+INFO   [08:26:58.336] [dw-35 - GET /device/111] o.h.a.c.Version -  HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+INFO   [08:26:58.776] [dw-35 - GET /device/111] o.h.d.Dialect -  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+INFO   [08:27:00.058] [dw-35 - GET /device/111] o.h.h.i.QueryTranslatorFactoryInitiator -  HHH000397: Using ASTQueryTranslatorFactory 

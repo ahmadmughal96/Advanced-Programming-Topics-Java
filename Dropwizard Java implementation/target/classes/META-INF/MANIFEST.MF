@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: edu.seecs.dropwizard
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: aghaf
+Implementation-Vendor-Id: ap
+Build-Jdk: 1.8.0_171
+Created-By: Maven Integration for Eclipse
+
