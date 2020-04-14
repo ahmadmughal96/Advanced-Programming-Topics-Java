@@ -2,9 +2,8 @@ Name: Ahmad Amjad Mughal
 Class: BSCS-6C
 Reg No: 121672
 
-											ASSIGNMENT NO 2
 								
-							(Developing a Database Connectivity Client-Server Application using Hibernate) 
+			(Developing a Database Connectivity Client-Server Application using Hibernate) 
 Client Role: First of all my approach is to ask client what type of operation he needs to perform. After selecting desired operation he adds the required attributes and set a Person instance
 	     convert it into JSON String along with tag and sends it to server. When server performs it role, a responsive message send by the server is displayed on client side.
 
